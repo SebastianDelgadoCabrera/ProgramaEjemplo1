@@ -14,12 +14,12 @@ git add .
    68  git config --global user.name "sebastiandelgadocabrera"
    69  git commit -m "subiendo cuarta linea"
    70  git push -u origin main 
-   71  git add index.html 
-   72  git commit -m "Añade cuarta linea"
-   73  git commit -m "subiendo cuarta linea"
-   74  git push -u origin main 
+   
+   
+   PARA SUBIR CAMBIOS , HACER ESTO
+   
+   
    75  git add index.html 
    76  git commit -m "subiendo cuarta lineass"
-   77  git push -u origin main 
-   78  git push -u origin main --force
+   77  git push -u origin main --force
 
