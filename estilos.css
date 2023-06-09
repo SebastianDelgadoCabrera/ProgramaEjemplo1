@@ -3,24 +3,88 @@ html {
     scroll-behavior: smooth;
   }
 
-  
-.imagenportada {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 20%;
-      
-    
-}
 
 .menuportada {
-    padding-top: 20px;
+
+    left: 10px;
+    right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
+  
+.logoinicio {
+    float: left;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.imageninicio{
+    width: 250px;
+    height: 130px;
+}
+
+
+.menus {
+    float: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #4fb3f5}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.logorsocialesinicio {
+    float: right;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ 
 
 .presentacion {
+    margin-top: 25px;
     padding: 20px;
     text-align: center;
 }
